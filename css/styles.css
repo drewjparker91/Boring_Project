@@ -1,13 +1,5 @@
-p.intro {
-  color: green;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-}
-
-h2.intro {
-  color: red;
-  font-style: italic;
-}
-
-img.intro {
-  border-radius: 50%;
+.intro {
+  color: blueviolet;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
 }
