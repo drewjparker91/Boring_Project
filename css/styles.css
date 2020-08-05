@@ -3,3 +3,16 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: yellow;
+    color: red;
+  }   
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: coral;
+  }
+}
