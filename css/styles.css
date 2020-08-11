@@ -4,6 +4,15 @@
   text-align: center;
 }
 
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
   body {
     background-color: yellow;
