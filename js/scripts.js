@@ -1,22 +1,30 @@
+
 $(document).ready(function() {
-  $(.button).click(function(){
-    
-    
-  }
-  $(".clickable").click(function() {
-    $("#walrus-showing").wrap();
-    $("#walrus-hidden").wrap();
+  $("#p1").wrap()
+  
+  $("#clickable").click(function() {
+    ("#p1").wrap("<div class='clickable'></div>");
   });
-  $(".clickable1").click(function() {
-    $("#aardvark-showing").wrap();
-    $("#aardvark-hidden").wrap();
+
+  $("button#p2").click(function() {
+    $("body").addClass(".highlight");
+
   });
-  $(".clickable2").click(function() {
-    $("#aardvark-showing").wrap();
-    $("#aardvark-hidden").wrap();
-  });
-  $(".clickable3").click(function() {
-    $("#aardvark-showing").wrap();
-    $("#aardvark-hidden").wrap();
+  
+  $("button#green").click(function() {
+    $("body").addClass("green-background");
   });
 });
+
+
+$(".clickable1").click(function() {
+  $("#aardvark-showing").wrap();
+  $("#aardvark-hidden").wrap();
+});
+$(".clickable2").click(function() {
+  $("#aardvark-showing").wrap();
+  $("#aardvark-hidden").wrap();
+});
+$(".clickable3").click(function() {
+  $("#aardvark-showing").wrap();
+  $("#aardvark-hidden").wrap();
